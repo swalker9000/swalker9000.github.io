@@ -1,0 +1,110 @@
+:root {
+  --delftBlue: #3A405A;
+  --delftBlue80: #3A405A80;
+  --delftBlue50: #3A405A50;
+  --delftBlue30: #3A405A30;
+  --powderBlue: #AEC5EB;
+  --powderBlue80: #AEC5EB80;
+  --powderBlue50: #AEC5EB50;
+  --powderBlue30: #AEC5EB30;
+  --champagnePink: #F9DEC9;
+  --champagnePink80: #F9DEC980;
+  --champagnePink50: #F9DEC950;
+  --champagnePink30: #F9DEC930;
+  --melon: #E9AFA3;
+  --melon80: #E9AFA380;
+  --melon50: #E9AFA350;
+  --melon30: #E9AFA330;
+  --umber: #685044;
+  --umber80: #68504480;
+  --umber50: #68504450;
+  --umber30: #68504430;
+
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  background-color: #1B254E;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-weight: bold;
+  color: var(--melon);
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px;
+  
+}
+
+table {
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-family: 
+  "Roboto Condensed", Helvetica, sans-serif;
+}
+
+thead {
+  background-color: var(--melon);
+}
+
+code {
+  background-color: var(--champagnePink);
+}
+
+.name {
+  text-transform: lowercase;
+}
+
+.structure td[scope="row"] {
+  background-color: var(--delftBlue);
+  color: #FFF;
+}
+
+.structure .tag {
+  background-color: var(--delftBlue80);
+}
+
+.structure .name {
+  background-color: var(--delftBlue50);
+}
+
+.structure .description {
+  background-color: var(--delftBlue30);
+}
+
+.text td[scope="row"] {
+  background-color: var(--umber);
+  color: #FFF;
+}
+
+.text .tag {
+  background-color: var(--umber80);
+}
+
+.text .name {
+  background-color: var(--umber50);
+}
+
+.text .description {
+  background-color: var(--umber30);
+}
+
+.media td[scope="row"] {
+  background-color: var(--powderBlue);
+  color: #FFF;
+}
+
+.media .tag {
+  background-color: var(--powderBlue80);
+}
+
+.media .name {
+  background-color: var(--powderBlue50);
+}
+
+.media .description {
+  background-color: var(--powderBlue30);
+}
+
